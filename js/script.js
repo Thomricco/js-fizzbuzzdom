@@ -2,7 +2,7 @@
 const boxingHtml = document.querySelector(`.boxing`);
 
 for (let i = 1; i <= 100; i++) {
-    if (i % 5 && 3 === 0 && i !== 0) {
+    if (i % 5 === 0 && i % 3 === 0 && i!=0) {
         // divisibile per 5 o 3
         boxingHtml.innerHTML += '<div class="box box-bianco">FizBuz</div>'
     }
